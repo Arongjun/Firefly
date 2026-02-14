@@ -1,9 +1,11 @@
 ---
 title: 避坑指南：为什么我的 AI 助理成了“复读机”？
+published: 2026-02-14
 description: 记录一次 OpenClaw 在飞书集成中由于插件重复加载导致的回复双发问题及修复过程。
-pubDate: 2026-02-14 12:35:00
-category: 技术复盘
+image: api
 tags: [OpenClaw, 飞书, 故障排查, AI]
+category: 技术复盘
+draft: false
 ---
 
 # 避坑指南：为什么我的 AI 助理成了“复读机”？
