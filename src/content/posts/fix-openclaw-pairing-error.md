@@ -1,9 +1,10 @@
 ---
 title: "解决 OpenClaw WebUI 报错 disconnected (1008): pairing required"
+published: 2026-02-15
 description: "深度复盘并解决 OpenClaw 在 Nginx 转发环境下移动端无法连接 WebUI 的疑难杂症。"
-pubDate: 2026-02-15 00:45:00
 category: 技术方案
 tags: [OpenClaw, Nginx, WebSocket, 安全配置]
+draft: false
 ---
 
 在使用 OpenClaw 过程中，如果通过 Nginx 反向代理访问 WebUI，经常会遇到手机端或新设备报错 `disconnected (1008): pairing required`。即便输入正确的 Token 也无法登录。
