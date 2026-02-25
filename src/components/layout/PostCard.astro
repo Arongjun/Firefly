@@ -6,7 +6,7 @@ import CoverImage from "@/components/common/CoverImage.astro";
 import PostMetadata from "@/components/layout/PostMeta.astro";
 import I18nKey from "@/i18n/i18nKey";
 import { i18n } from "@/i18n/translation";
-import { processCoverImageSync } from "@/utils/image-utils";
+import { getApiUrlList, processCoverImageSync } from "@/utils/image-utils";
 import { getFileDirFromPath, getTagUrl } from "@/utils/url-utils";
 
 interface Props {
@@ -43,6 +43,7 @@ const className = Astro.props.class;
 
 // 处理随机图：如果image为"api"，则从配置的API获取随机图
 const processedImage = processCoverImageSync(image, entry.id);
+const apiUrls = getApiUrlList(image, entry.id);
 const hasCover =
 	processedImage !== undefined &&
 	processedImage !== null &&
@@ -84,21 +85,8 @@ const { remarkPluginFrontmatter } = await render(entry);
         before:w-1 before:h-5 before:rounded-md before:bg-(--primary)
         before:absolute before:top-[35px] before:left-[18px] before:hidden md:before:block"
     >
-      <!--       {
-        pinned && (
-          <>
-            <Icon
-              name="mdi:pin"
-              class="inline text-(--primary) text-2xl mr-2 -translate-y-0.5"
-            />
-          </>
-        )
-      } -->
       {title}<Icon
-        class="inline-block text-[2rem] text-(--primary) md:hidden align-middle -translate-y-[2px] -ml-1"
-        name="material-symbols:chevron-right-rounded"
-      /><Icon
-        class="text-(--primary) text-[2rem] transition hidden md:inline-block opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:-translate-x-1 align-middle -translate-y-[2px]"
+        class="inline text-[2rem] text-(--primary) md:hidden align-middle -translate-y-[2px] -ml-1"
         name="material-symbols:chevron-right-rounded"
       />
     </a>
@@ -181,9 +169,10 @@ const { remarkPluginFrontmatter } = await render(entry);
           src={processedImage}
           basePath={getFileDirFromPath(entry.filePath || '')}
           alt="Cover Image of the Post"
-          class="w-full h-full transition-transform group-active:scale-105"
+          class="w-full h-full transition-transform duration-300 group-hover:scale-110 group-active:scale-115"
           preview={true}
           loading={loading}
+          apiUrls={apiUrls}
         />
       </a>
     )

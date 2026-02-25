@@ -75,6 +75,8 @@ export const zh_CN: Translation = {
 
 	[Key.author]: "作者",
 	[Key.publishedAt]: "发布于",
+	[Key.updatedAt]: "更新于",
+	[Key.readTime]: "阅读时长",
 	[Key.license]: "许可协议",
 	[Key.bangumi]: "番组计划",
 
@@ -196,6 +198,11 @@ export const zh_CN: Translation = {
 	[Key.wallpaperOverlayMode]: "全屏透明",
 	[Key.wallpaperNoneMode]: "纯色背景",
 
+	// 横幅设置
+	[Key.bannerSettings]: "横幅设置",
+	[Key.bannerTitle]: "首页横幅标题",
+	[Key.wavesAnimation]: "水波纹动画",
+
 	// 文章布局
 	[Key.postListLayout]: "文章布局",
 	[Key.postListLayoutList]: "列表",
@@ -267,4 +274,12 @@ export const zh_CN: Translation = {
 	[Key.codeCollapsibleShowLess]: "显示更少",
 	[Key.codeCollapsibleExpanded]: "代码块已展开",
 	[Key.codeCollapsibleCollapsed]: "代码块已折叠",
+
+	// 相册页面
+	[Key.gallery]: "相册",
+	[Key.galleryDescription]: "记录生活中的美好瞬间",
+	[Key.galleryPhotos]: "张照片",
+	[Key.galleryAlbums]: "本相册",
+	[Key.galleryNoAlbums]: "暂无相册",
+	[Key.galleryBackToAlbums]: "返回相册列表",
 };

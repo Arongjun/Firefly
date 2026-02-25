@@ -70,6 +70,8 @@ enum I18nKey {
 
 	author = "author",
 	publishedAt = "publishedAt",
+	updatedAt = "updatedAt",
+	readTime = "readTime",
 	license = "license",
 	friends = "friends",
 	friendsDescription = "friendsDescription",
@@ -194,6 +196,11 @@ enum I18nKey {
 	wallpaperOverlayMode = "wallpaperOverlayMode",
 	wallpaperNoneMode = "wallpaperNoneMode",
 
+	// 横幅设置
+	bannerSettings = "bannerSettings",
+	bannerTitle = "bannerTitle",
+	wavesAnimation = "wavesAnimation",
+
 	// 文章布局
 	postListLayout = "postListLayout",
 	postListLayoutList = "postListLayoutList",
@@ -263,6 +270,14 @@ enum I18nKey {
 	codeCollapsibleShowLess = "codeCollapsibleShowLess",
 	codeCollapsibleExpanded = "codeCollapsibleExpanded",
 	codeCollapsibleCollapsed = "codeCollapsibleCollapsed",
+
+	// 相册页面
+	gallery = "gallery",
+	galleryDescription = "galleryDescription",
+	galleryPhotos = "galleryPhotos",
+	galleryAlbums = "galleryAlbums",
+	galleryNoAlbums = "galleryNoAlbums",
+	galleryBackToAlbums = "galleryBackToAlbums",
 }
 
 export default I18nKey;

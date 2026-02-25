@@ -77,6 +77,8 @@ export const ja: Translation = {
 
 	[Key.author]: "著者",
 	[Key.publishedAt]: "公開日",
+	[Key.updatedAt]: "更新日",
+	[Key.readTime]: "読了時間",
 	[Key.license]: "ライセンス",
 	[Key.bangumi]: "バングミ",
 
@@ -203,6 +205,11 @@ export const ja: Translation = {
 	[Key.wallpaperOverlayMode]: "透明",
 	[Key.wallpaperNoneMode]: "単色背景",
 
+	// バナー設定
+	[Key.bannerSettings]: "バナー設定",
+	[Key.bannerTitle]: "ホームバナータイトル",
+	[Key.wavesAnimation]: "波アニメーション",
+
 	// 投稿リストレイアウト
 	[Key.postListLayout]: "投稿リストレイアウト",
 	[Key.postListLayoutList]: "リスト",
@@ -275,4 +282,12 @@ export const ja: Translation = {
 	[Key.codeCollapsibleShowLess]: "少なく表示",
 	[Key.codeCollapsibleExpanded]: "コードブロックが展開されました",
 	[Key.codeCollapsibleCollapsed]: "コードブロックが折りたたまれました",
+
+	// ギャラリーページ
+	[Key.gallery]: "ギャラリー",
+	[Key.galleryDescription]: "人生の美しい瞬間を記録する",
+	[Key.galleryPhotos]: "枚の写真",
+	[Key.galleryAlbums]: "冊のアルバム",
+	[Key.galleryNoAlbums]: "アルバムがありません",
+	[Key.galleryBackToAlbums]: "アルバム一覧に戻る",
 };
