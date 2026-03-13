@@ -200,6 +200,15 @@ export const en: Translation = {
 	// Pinned
 	[Key.pinned]: "Pinned",
 
+	// Related Posts
+	[Key.relatedPosts]: "Related Posts",
+	[Key.randomPosts]: "Random Posts",
+	[Key.smartRecommend]: "Smart",
+	[Key.randomRecommend]: "Random",
+
+	// Encrypted
+	[Key.postEncrypted]: "This post is encrypted",
+
 	// Wallpaper Mode
 	[Key.wallpaperMode]: "Wallpaper Mode",
 	[Key.wallpaperBannerMode]: "Banner Wallpaper",
@@ -210,6 +219,10 @@ export const en: Translation = {
 	[Key.bannerSettings]: "Banner Settings",
 	[Key.bannerTitle]: "Home Banner Title",
 	[Key.wavesAnimation]: "Waves Animation",
+	[Key.overlaySettings]: "Transparency Settings",
+	[Key.overlayOpacity]: "Wallpaper Opacity",
+	[Key.overlayBlur]: "Background Blur",
+	[Key.overlayCardOpacity]: "Card Opacity",
 
 	// Post List Layout
 	[Key.postListLayout]: "Post List Layout",

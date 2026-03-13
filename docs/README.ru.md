@@ -82,8 +82,8 @@
 
 ### Требования
 
-- Node.js ≤ 22
-- pnpm ≤ 9
+- Node.js ≥ 22
+- pnpm ≥ 9
 
 ### Локальная разработка
 
@@ -118,7 +118,8 @@
    Блог будет доступен по адресу `http://localhost:4321`
 
 ### Развертывание на платформе хостинга
-- **См. [официальное руководство](https://docs.astro.build/ru/guides/deploy/) для развертывания блога на Vercel, Netlify, GitHub Pages, Cloudflare Pages, EdgeOne Pages и т.д.**
+- **См. [официальное руководство](https://docs.astro.build/ru/guides/deploy/) для развертывания блога на Vercel, Netlify, Cloudflare Pages, EdgeOne Pages и т.д.**
+- **Vercel**, **Netlify** и другие популярные платформы поддерживают автоматическое развертывание и автоматически выбирают подходящий адаптер в зависимости от окружения.
 
    Пресет фреймворка: `Astro`
 
@@ -129,6 +130,9 @@
    Команда сборки: `pnpm run build`
 
    Команда установки: `pnpm install`
+
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
+   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
 
 ## 📖 Настройка
 

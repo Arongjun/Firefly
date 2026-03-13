@@ -194,6 +194,15 @@ export const zh_TW: Translation = {
 	// 置頂
 	[Key.pinned]: "置頂",
 
+	// 相關文章推薦
+	[Key.relatedPosts]: "相關文章",
+	[Key.randomPosts]: "隨機文章",
+	[Key.smartRecommend]: "智慧推薦",
+	[Key.randomRecommend]: "隨機推薦",
+
+	// 加密
+	[Key.postEncrypted]: "本文已加密",
+
 	// 壁紙模式
 	[Key.wallpaperMode]: "壁紙模式",
 	[Key.wallpaperBannerMode]: "橫幅壁紙",
@@ -204,6 +213,10 @@ export const zh_TW: Translation = {
 	[Key.bannerSettings]: "橫幅設置",
 	[Key.bannerTitle]: "首頁橫幅標題",
 	[Key.wavesAnimation]: "水波紋動畫",
+	[Key.overlaySettings]: "透明設定",
+	[Key.overlayOpacity]: "桌布透明度",
+	[Key.overlayBlur]: "背景模糊度",
+	[Key.overlayCardOpacity]: "卡片透明度",
 
 	// 文章佈局
 	[Key.postListLayout]: "文章佈局",

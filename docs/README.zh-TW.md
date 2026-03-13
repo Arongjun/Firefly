@@ -82,8 +82,8 @@
 
 ### 環境要求
 
-- Node.js ≤ 22
-- pnpm ≤ 9
+- Node.js ≥ 22
+- pnpm ≥ 9
 
 ### 本地開發部署
 
@@ -118,7 +118,8 @@
    部落格將在 `http://localhost:4321` 可用
 
 ### 平台託管部署
-- **參考[官方指南](https://docs.astro.build/zh-cn/guides/deploy/)將部落格部署至 Vercel, Netlify, GitHub Pages, Cloudflare Pages, EdgeOne Pages 等。**
+- **參考[官方指南](https://docs.astro.build/zh-cn/guides/deploy/)將部落格部署至 Vercel, Netlify, Cloudflare Pages, EdgeOne Pages 等。**
+- **Vercel**、**Netlify** 等主流平台自動部署，會根據環境自動選擇適配器。
 
    框架預設： `Astro`
 
@@ -129,6 +130,9 @@
    建置命令： `pnpm run build`
 
    安裝命令： `pnpm install`
+
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
+   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
 
 ## 📖 配置說明
 

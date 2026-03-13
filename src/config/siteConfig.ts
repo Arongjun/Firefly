@@ -48,7 +48,9 @@ export const siteConfig: SiteConfig = {
 	// 网站Card样式配置
 	card: {
 		// 是否开启卡片边框和阴影，开启后让网站更有立体感
-		border: true,
+		border: false,
+		// 是否让卡片风格跟随主题色相
+		followTheme: false,
 	},
 
 	// Favicon 配置
@@ -80,6 +82,8 @@ export const siteConfig: SiteConfig = {
 		title: "Firefly",
 		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 		widthFull: false,
+		// 导航菜单对齐方式，left：左对齐，center：居中
+		menuAlign: "center",
 		// 导航栏图标和标题是否跟随主题色
 		followTheme: false,
 	},
@@ -113,6 +117,10 @@ export const siteConfig: SiteConfig = {
 	bangumi: {
 		// Bangumi用户ID
 		userId: "1143164",
+		// 条目类型排序，数组中的类型将按顺序优先展示
+		// 可选值: "anime" | "book" | "music" | "game" | "real" (暂不支持"real"类型)
+		// 未列出的类型将按默认顺序排在后面
+		categoryOrder: ["anime", "book", "music", "game"],
 	},
 
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404

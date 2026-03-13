@@ -199,6 +199,15 @@ export const ja: Translation = {
 	// ピン留め
 	[Key.pinned]: "ピン留め",
 
+	// 関連記事
+	[Key.relatedPosts]: "関連記事",
+	[Key.randomPosts]: "ランダム記事",
+	[Key.smartRecommend]: "スマート",
+	[Key.randomRecommend]: "ランダム",
+
+	// 暗号化
+	[Key.postEncrypted]: "この記事は暗号化されています",
+
 	// 壁紙モード
 	[Key.wallpaperMode]: "壁紙モード",
 	[Key.wallpaperBannerMode]: "バナー壁紙",
@@ -209,6 +218,10 @@ export const ja: Translation = {
 	[Key.bannerSettings]: "バナー設定",
 	[Key.bannerTitle]: "ホームバナータイトル",
 	[Key.wavesAnimation]: "波アニメーション",
+	[Key.overlaySettings]: "透明設定",
+	[Key.overlayOpacity]: "壁紙の透明度",
+	[Key.overlayBlur]: "背景ぼかし",
+	[Key.overlayCardOpacity]: "カード透明度",
 
 	// 投稿リストレイアウト
 	[Key.postListLayout]: "投稿リストレイアウト",

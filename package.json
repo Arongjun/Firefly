@@ -1,7 +1,7 @@
 {
   "name": "firefly",
   "type": "module",
-  "version": "6.7.4",
+  "version": "6.7.12",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -32,6 +32,7 @@
     "@iconify-json/fa7-regular": "^1.2.3",
     "@iconify-json/fa7-solid": "^1.2.4",
     "@iconify-json/material-symbols": "^1.2.57",
+    "@iconify-json/mingcute": "^1.2.7",
     "@iconify-json/simple-icons": "^1.2.71",
     "@iconify/utils": "^3.1.0",
     "@swup/astro": "^1.8.0",
@@ -47,6 +48,7 @@
     "hastscript": "^9.0.1",
     "katex": "^0.16.33",
     "marked": "^16.4.2",
+    "mdast-util-find-and-replace": "^3.0.2",
     "mdast-util-to-string": "^4.0.0",
     "node-html-parser": "^7.0.2",
     "overlayscrollbars": "^2.14.0",
@@ -69,6 +71,7 @@
     "stylus": "^0.64.0",
     "svelte": "^5.53.3",
     "typescript": "^5.9.2",
+    "unist-util-is": "^6.0.1",
     "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
